@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+  <elements>
+    <element required="true" type="boolean" scope="shop">
+      <name>gwen_move_menubar_io</name>
+      <label lang="de">Plugin aktivieren</label>
+      <label lang="en">Enable plugin</label>
+      <value>true</value>
+      <description lang="de">Plugin zu aktivieren oder deaktivieren.</description>
+      <description lang="en">Enable or disable plugin.</description>
+    </element>
+    
+
+    <element required="true" type="boolean" scope="shop">
+      <name>gwen_move_menubar</name>
+      <label lang="de">Menüleiste in den Header verschieben</label>
+      <label lang="en">Move menu bar in the header</label>
+      <value>true</value>
+      <description lang="de">Verschiebt die Menüleiste in den Header oder in das Navigationsmenü.</description>
+      <description lang="en">Moves the menu bar to the header or navigation menu.</description>
+    </element>
+    
+
+    <element required="true" type="boolean" scope="shop">
+      <name>gwen_disabled_breadcrumbs</name>
+      <label lang="de">Breadcrumbs ausblenden</label>
+      <label lang="en">Hide breadcrumbs</label>
+      <value>false</value>
+      <description lang="de">Blendet die Breadcrumbs auf der Listing und Detailseite aus.</description>
+      <description lang="en">Hides the breadcrumbs on the listing and detail page.</description>
+    </element>
+  </elements>
+</config>

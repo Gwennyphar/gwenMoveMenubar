@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">Menüleiste in den Header verschieben</label>
+    <label lang="en">Move menu bar in the header</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) 2018</copyright>
+    <license>MIT License</license>
+    <link>http://store.shopware.com</link>
+    <author>Juliane Anders</author>
+    <compatibility minVersion="5.3" />
+    <description lang="de">Verschiebt die Menüleiste in den Header oder in das Navigtionsmenü. Zusätzlich können die Breadcrumbs im Listing und in der Detailseite ausgeblendet werden.</description>
+    <changelogs>
+      <changelog version="1.0.0">
+        <changes lang="de">Keine Änderungen</changes>
+        <changes lang="en">no changes</changes>
+      </changelog>
+    </changelogs>
+</plugin>
